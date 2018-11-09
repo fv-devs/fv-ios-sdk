@@ -1,0 +1,67 @@
+/* 
+  Localizable.strings
+  FullyVerified
+
+  Created by Krzysztof Ebert on 28/11/2017.
+  Copyright © 2017 FullyVerified. All rights reserved.
+*/
+
+"APP_NAME" = "Fully-Verified";
+"WELCOME_TEXT" = "Welcome to Fully-Verified.";
+"WELCOME_DESCRIPTION" = "Please type in your verification details below or simply scan the QR code.";
+
+"MOBILE_ID_LABEL" = "Verification ID";
+"MOBILE_ID_LABEL_EXAMPLE" = "ABCDEFGH";
+"OTP_LABEL" = "One Time Password";
+"OTP_LABEL_EXAMPLE" = "123456";
+"VERIFY_BUTTON_LABEL" = "Verify me!";
+
+"VERIFY_JOIN_ERROR_TITLE" = "Provided details are incorrect, please check them again.";
+"VERIFY_JOIN_ERROR_MESSAGE" = "Please type correct data to start verification process.";
+
+"VERIFICATION_STATUS_START_LABEL" = "Please wait for next instructions.";
+
+"LAST_UPDATE_LABEL" = "Last update: %@";
+
+"RATING_SCREEN_INFO_LABEL" = "Every piece of feedback is read and logged. It will help us improve our service in the future. Thank you.";
+"RATING_SCREEN_TITLE" = "Verification completed";
+"RATING_SCREEN_RATE_LABEL" = "Please rate your experience below.";
+"RATING_SCREEN_NOTES_LABEL" = "Notes";
+"RATING_SCREEN_BUTTON_LABEL" = "End Verification";
+
+"DISCONNECT_QUESTION_LABEL" = "Disconnect?";
+
+"OK_BUTTON_LABEL" = "OK";
+"CANCEL_BUTTON_LABEL" = "Cancel";
+"DISCONNECT_BUTTON_LABEL" = "Disconnect";
+"MUTE_BUTTON_LABEL" = "Mute";
+"UNMUTE_BUTTON_LABEL" = "Unmute";
+"HOLD_BUTTON_LABEL" = "Hold";
+"SETTINGS_BUTTON_LABEL" = "Settings";
+"NOTIFY_BUTTON_LABEL" = "Notify me!";
+"RETURN_CALL_BUTTON_LABEL" = "Return to call";
+"CAMERA_SWITCH_BUTTON_LABEL" = "Switch camera";
+"CAMERA_FLASH_BUTTON_LABEL" = "Turn on/off flash";
+"ROOM_USER_IS_NOT_ACTIVE" = "You have connected from another device";
+
+"PERMISSION_TITLE" = "Permission needed";
+"PERMISSION_ALL_MESSAGE" = "In order to perform verifications, the application needs access to your microphone and camera.";
+"PERMISSION_SCAN_MESSAGE" = "In order to perform verifications, the application needs access to your camera.";
+
+"VERIFICATION_ACTION_TITLE_LABEL" = "Options / Disconnect";
+"VERIFICATION_ACTION_MESSAGE_LABEL" = "Mute/Unmute - turn off/on your microphone\nHold/Return to call - turn off/on your camera & microphone\nDisconnect will finish verification";
+
+
+"VERIFICATION_IN_PROGRESS_STATUS" = "Verification in progress.";
+"CONNECTING_STATUS" = "Connecting ...";
+"CONNECTED_STATUS" = "Connected";
+"REMOTE_PARTICIPANT_CONNECTED_STATUS" = "Agent connected";
+"REMOTE_PARTICIPANT_DISCONNECTED_STATUS" = "Agent disconnected";
+"REMOTE_PARTICIPANT_MUTED_STATUS" = "Agent muted";
+"REMOTE_PARTICIPANT_HOLD_STATUS" = "Agent put call on hold";
+
+"SCAN_CODE_LABEL" = "Scan code";
+"SCAN_CODE_SUCCESS_LABEL" = "Done :)";
+"SCAN_CODE_FAILED_LABEL" = "Wrong code, try again!";
+"SCAN_CODE_INFO_LABEL" = "Place the camera so that you can see the QR code.";
+
