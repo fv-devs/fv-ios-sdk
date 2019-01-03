@@ -20,7 +20,11 @@ typedef NS_ENUM(NSInteger, FullyVerifiedState) {
 
 typedef NS_ENUM(NSInteger, FullyVerifiedEnvironment) {
     FullyVerifiedEnvironmentLive = 0,
-    FullyVerifiedEnvironmentTest,
+    FullyVerifiedEnvironmentTest = 1,
+#if defined (DEBUG) || defined (TESTFLIGHT)
+    FullyVerifiedEnvironmentLiveAWS = 2,
+    FullyVerifiedEnvironmentTestAWS = 3
+#endif
 };
 
 @protocol FullyVerifiedDelegate;
@@ -31,17 +35,14 @@ typedef NS_ENUM(NSInteger, FullyVerifiedEnvironment) {
 @property (nonatomic, retain) NSURLSessionConfiguration *sessionConfig;
 
 + (instancetype)sharedInstance;
++ (NSString *) endpointURL:(NSString *)endpoint;
 
 - (void) startVerification:(NSString *) verificationHash withViewController:(UIViewController *)viewController;
 - (void) startVerification:(NSString *) mobileHash withOTP:(NSString *)oneTimePassword withViewController:(UIViewController *)viewController;
 - (void) refreshToken:(void (^)(void))completionHandler;
 - (void) setEnvironment:(FullyVerifiedEnvironment) environment;
 - (void) registerNotificationToken:(NSString *)token;
-
-+ (NSString *) environmentName;
-+ (NSString *) mainURL;
-+ (NSString *) mainDomain;
-+ (NSString *) endpointURL:(NSString *)endpoint;
+- (FullyVerifiedEnvironment) environment;
 
 @end
 
