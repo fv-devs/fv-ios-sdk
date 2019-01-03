@@ -2,7 +2,7 @@
 
 ## Podfile
 
-```pod 'FullyVerifiedSDK', :git => 'https://github.com/fv-devs/fv-ios-sdk.git', :tag => '0.9.0'```
+```pod 'FullyVerifiedSDK', :git => 'https://github.com/fv-devs/fv-ios-sdk.git', :tag => '0.9.1'```
 
 ## Install Pod
 
